@@ -1,0 +1,32 @@
+Submission by - Tanay Shah
+Email - tanayshah@live.com
+
+For reading data, shutil library was used to get data in data_flow_from _directory form of tensorflow, 
+later attempts used dataflow from dataframe which did the conversion directly.
+Initial attempts were to create an image classifier using tensorflow and keras.
+I went upto 6 layers while even after 50 epochs accuracy was just about 11%
+
+So it was clear there had to be some sort of transfer learning to be done.
+Thus the searxh for pretrained models begin.
+
+Since it is my first time using pretrained models....it took me some time to figure out the way....keras documentation helped a lot 
+
+Models I tried in order are
+VGG16
+Resnet50
+Resnet101
+InceptionV3
+InceptionResNetV2
+RenNet101V2
+Xception
+NASNetLarge
+These too were found in the documentation guide.
+
+There was some uncertainity of the inclusion of validation set in the model training. some allowed where as some gave error, this is something i am not clear about.
+
+Resnet101V2 gave the best results!
+
+
+
+Regards
+Tanay
